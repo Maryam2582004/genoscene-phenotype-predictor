@@ -106,7 +106,7 @@ def install_packages():
 def open_web_interface():
     """Open the web interface"""
     print("🌐 Opening web interface...")
-    html_file = Path("index.html")
+    html_file = Path("genoscene.html")
     if html_file.exists():
         webbrowser.open(f"file://{html_file.absolute()}")
         print("✅ Web interface opened in your browser!")
@@ -187,4 +187,5 @@ def move_results_to_output(sample_id):
 
 if __name__ == "__main__":
     main()
+
 
