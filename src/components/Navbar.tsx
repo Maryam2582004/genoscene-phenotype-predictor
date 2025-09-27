@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const navItems = [
     { href: "/", label: "Home" },
-    { href: "/upload", label: "Upload & Predict" },
+    { href: "/upload-predict", label: "Upload & Predict" },
     { href: "/contact", label: "Contact" },
   ];
 

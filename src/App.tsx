@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Contact from "./pages/Contact";
-import UploadStandalone from "./pages/UploadStandalone";
+import UploadPredict from "./pages/UploadPredict";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,7 +23,7 @@ const App = () => (
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/upload" element={<UploadStandalone />} />
+          <Route path="/upload-predict" element={<UploadPredict />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
